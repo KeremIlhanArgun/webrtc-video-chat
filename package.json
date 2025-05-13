@@ -1,0 +1,20 @@
+{
+  "name": "webrtc-video-chat",
+  "version": "1.0.0",
+  "description": "WebRTC tabanlı gerçek zamanlı video ve sesli görüşme uygulaması",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Kerem Argun",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^5.1.0",
+    "ws": "^8.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
